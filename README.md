@@ -55,10 +55,10 @@ We need to configure our implementation as needed.
   <img src = "./docs/doc/3.JPG" alt = "testimonialsCards" >
 
 - **Full Section** [Show Live](https://brightonseo.com/courses)
-  <img src = "./docs/doc/4.JPG" alt = "fullTrainSection" >
+  <img src = "./docs/doc/4.png" alt = "fullTrainSection" >
 
 - **About Us Section** [Show Live](https://brightonseo.com/about)
-  <img src = "./docs/doc/5.JPG" alt = "about_us_section" >
+  <img src = "./docs/doc/5.png" alt = "about_us_section" >
 
 - **Handle Rich text** [Show Live Demo One](https://brightonseo.com/ballot) [Show Live Demo Two](https://brightonseo.com/sponsor-brightonseo)
   <img src = "./docs/doc/6.png" alt = "rich_text_handle_one" >
