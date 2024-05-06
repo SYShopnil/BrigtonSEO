@@ -60,12 +60,10 @@ We need to configure our implementation as needed.
 - **About Us Section** [Show Live](https://brightonseo.com/about)
   <img src = "./docs/doc/5.JPG" alt = "about_us_section" >
 
-- **Handle Rich text**  
-  <img src = "./docs/doc/6.JPG" alt = "rich_text_handle" >
-  [Show Live](https://brightonseo.com/ballot)
+- **Handle Rich text** [Show Live Demo One](https://brightonseo.com/ballot) [Show Live Demo Two](https://brightonseo.com/sponsor-brightonseo)
+  <img src = "./docs/doc/6.png" alt = "rich_text_handle_one" >
 
-  <img src = "./docs/doc/8.JPG" alt = "rich_text_handle" >
-  [Show Live](https://brightonseo.com/sponsor-brightonseo)
+  <img src = "./docs/doc/8.png" alt = "rich_text_handleTwo" >
 
 - **FAQ Handler** [Show Live](https://brightonseo.com/faq)
   <img src = "./docs/doc/7.JPG" alt = "faq" >
