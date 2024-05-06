@@ -1,0 +1,30 @@
+/**
+ * IconEnum
+ */
+export enum IconEnum {
+  CornerUpRight = 'FiCornerUpRight',
+  CornerUpLeft = 'FiCornerUpLeft',
+  Send = 'FiSend',
+  Navigation = 'FiNavigation',
+  Calendar = 'FiCalendar',
+  TrainFill = 'RiTrainFill',
+  FlightTakeoffFill = 'RiFlightTakeoffFill',
+  BusFill = 'RiBusFill',
+  MotorbikeLine = 'RiMotorbikeLine',
+  ArrowRightLine = 'RiArrowRightLine',
+  ArrowLeftLine = 'RiArrowLeftLine',
+  DoubleQuotation = 'DoubleQuotation',
+  Facebook = 'RiFacebookFill',
+  Twitter = 'RiTwitterFill',
+  Instagram = 'RiInstagramFill',
+  Youtube = 'RiYoutubeFill',
+  FooterCustomRocket = 'FooterCustomRocket',
+  Logo = 'Logo',
+  CalendarEventFill = 'RiCalendarEventFill',
+  MapPinFill = 'RiMapPinFill',
+  EventInfoCircle = 'EventInfoCircle',
+  AiOutlinePlusCircle = 'AiOutlinePlusCircle',
+  AiOutlineMinusCircle = 'AiOutlineMinusCircle',
+  FilledPlus = 'GoPlus',
+  UserAlt = 'FaUserAlt',
+}

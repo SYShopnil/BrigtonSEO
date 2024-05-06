@@ -1,0 +1,121 @@
+/*pricing-card*/
+.pricing-card {
+  --duration: 0.3s;
+  --timing-function: ease-in-out;
+  --transiton: all var(--duration) var(--timing-function);
+
+  transition: var(--transiton);
+
+  .price-divider {
+    transition: var(--transiton);
+  }
+
+  // priceBoxColor schemes-
+
+  // primary
+  &.primary {
+    @apply text-primary;
+    .price-divider {
+      @apply bg-primary;
+    }
+    &:hover {
+      @apply bg-primary;
+    }
+  }
+
+  // secondary
+  &.secondary {
+    @apply text-secondary;
+    .price-divider {
+      @apply bg-secondary;
+    }
+    &:hover {
+      @apply bg-secondary;
+    }
+  }
+
+  // success
+  &.success {
+    @apply text-success;
+    .price-divider {
+      @apply bg-success;
+    }
+    &:hover {
+      @apply bg-success;
+    }
+  }
+
+  // warning
+  &.warning {
+    @apply text-warning;
+    .price-divider {
+      @apply bg-warning;
+    }
+    &:hover {
+      @apply bg-warning;
+    }
+  }
+
+  // blackLight
+  &.blackLight {
+    @apply text-blackLight;
+    .price-divider {
+      @apply bg-blackLight;
+    }
+    &:hover {
+      @apply bg-blackLight;
+    }
+  }
+
+  // priceBoxSize variants -
+
+  // large
+  &.large {
+    @apply md:p-10 p-6;
+    .price-name {
+      @apply md:text-3xl text-xl font-semibold;
+    }
+    .price {
+      @apply md:text-4xl text-3xl leading-[3rem] font-bold pr-2;
+    }
+    .price-vat,
+    .vat {
+      @apply text-base leading-[1rem];
+    }
+    .icon {
+      @apply text-3xl top-[-4px];
+    }
+    .vat-text {
+      @apply pt-[.75rem];
+    }
+  }
+
+  // small
+  &.small {
+    @apply p-6;
+    .price-name {
+      @apply text-lg font-medium;
+    }
+    .price {
+      @apply text-2xl font-medium leading-[1.75rem] pr-0;
+    }
+    .price-vat,
+    .vat {
+      @apply text-sm leading-[1rem];
+    }
+    .icon {
+      @apply text-lg top-[-2px];
+    }
+    .vat-text {
+      @apply pt-[.25rem];
+    }
+  }
+
+  // for all color variants
+  &:hover {
+    @apply text-white;
+    .price-divider {
+      @apply bg-white;
+    }
+  }
+}

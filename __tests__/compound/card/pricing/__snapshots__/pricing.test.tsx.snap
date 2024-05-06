@@ -1,0 +1,181 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pricing Card renders Pricing Card large correctly 1`] = `
+<div
+  class="relative overflow-hidden bg-white card radius-2xl shadow-One "
+  data-testid="pricing-card"
+>
+  <div
+    class="pricing-card secondary large text-center "
+  >
+    <div
+      class="md:mb-6 mb-4"
+    >
+      <h3
+        class="price-name capitalize"
+      >
+        basic
+      </h3>
+      <div
+        class="description md:text-base text-sm capitalize pt-1"
+      >
+        in person
+      </div>
+    </div>
+    <div
+      class="price-divider opacity-50 h-[0.063rem] max-w-[10rem] md:mb-6 mb-4 mx-auto"
+    />
+    <div
+      class="inline-flex"
+    >
+      <div>
+        <h4
+          class="price inline-flex items-center"
+        >
+          £
+          270
+          <span
+            class="icon inline-block relative"
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 12 16"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12 9H7v5H5V9H0V7h5V2h2v5h5v2z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </h4>
+      </div>
+      <div
+        class="vat-text inline-flex text-base capitalize items-center"
+      >
+        <span
+          class="vat"
+        >
+          /
+        </span>
+        <div
+          class="price-vat"
+        >
+          vat
+        </div>
+      </div>
+    </div>
+    <div
+      class="md:mt-7 mt-5"
+    >
+      <a
+        class="inline-flex"
+        href="https://www.google.com"
+        target="_self"
+      >
+        <span
+          class="bs-button SkyblueBgTextWhite  btn-sm   group relative cursor-pointer overflow-hidden inline-flex gap-[1rem] items-center justify-center capitalize"
+          data-testid="pricing-button"
+        >
+          <span>
+            get ticket
+          </span>
+          <span
+            class="absolute bs-button-bg inset-0"
+          />
+        </span>
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Pricing Card renders Pricing Card small correctly 1`] = `
+<div
+  class="relative overflow-hidden bg-white card radius-2xl shadow-One "
+  data-testid="pricing-card"
+>
+  <div
+    class="pricing-card secondary small text-center "
+  >
+    <div
+      class="md:mb-6 mb-4"
+    >
+      <h3
+        class="price-name capitalize"
+      >
+        basic
+      </h3>
+    </div>
+    <div
+      class="inline-flex"
+    >
+      <div>
+        <h4
+          class="price inline-flex items-center"
+        >
+          £
+          270
+          <span
+            class="icon inline-block relative"
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 12 16"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12 9H7v5H5V9H0V7h5V2h2v5h5v2z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </h4>
+      </div>
+      <div
+        class="vat-text inline-flex text-base capitalize items-center"
+      >
+        <span
+          class="vat"
+        >
+          /
+        </span>
+        <div
+          class="price-vat"
+        >
+          vat
+        </div>
+      </div>
+    </div>
+    <div
+      class="md:mt-7 mt-5"
+    >
+      <a
+        class="inline-flex"
+        href="https://www.google.com"
+        target="_self"
+      >
+        <span
+          class="bs-button SkyblueBgTextWhite  btn-ex-sm   group relative cursor-pointer overflow-hidden inline-flex gap-[1rem] items-center justify-center capitalize"
+          data-testid="pricing-button"
+        >
+          <span>
+            get ticket
+          </span>
+          <span
+            class="absolute bs-button-bg inset-0"
+          />
+        </span>
+      </a>
+    </div>
+  </div>
+</div>
+`;

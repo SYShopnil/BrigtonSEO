@@ -1,0 +1,29 @@
+// info-count-circle
+.info-count-circle {
+  &.theme-1 {
+    @apply text-successLight;
+  }
+  &.theme-2 {
+    @apply text-secondaryLight;
+  }
+  &.theme-3 {
+    @apply text-warning;
+  }
+}
+
+// event-info-item
+.event-info-item {
+  @apply relative;
+  .event-info-icon {
+    @apply absolute lg:top-0 top-1;
+  }
+}
+
+// hero-overlay
+.hero-overlay {
+  background: linear-gradient(
+    0deg,
+    rgba(12, 94, 232, 0.75),
+    rgba(12, 94, 232, 0.75)
+  );
+}

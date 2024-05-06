@@ -1,0 +1,441 @@
+/*=================================================
+  Redirect Button Text, Background & Hover Colors
+===================================================*/
+.bs-button {
+  // default
+  @apply text-white z-10 leading-[1.25] tracking-[.031em];
+  transition: all 0.35s ease-in-out;
+  .bs-button-bg {
+    @apply z-[-1] invisible opacity-0;
+    transition: all 0.35s ease-in-out;
+  }
+  &:hover {
+    @apply text-white;
+    .bs-button-bg {
+      @apply visible opacity-100;
+    }
+  }
+  // colorScheme - White Bg Text Purple
+  &.WhiteBgTextPurple {
+    @apply bg-white text-purple;
+  }
+  &.hover-WhiteBgTextPurple {
+    &:hover {
+      @apply text-purple;
+    }
+    .bs-button-bg {
+      @apply bg-white;
+    }
+  }
+  // colorScheme - White Bg Text Mint
+  &.WhiteBgTextMint {
+    @apply bg-white text-mint;
+  }
+  &.hover-WhiteBgTextMint {
+    &:hover {
+      @apply text-mint;
+    }
+    .bs-button-bg {
+      @apply bg-white;
+    }
+  }
+  // colorScheme - White Bg Text Pink
+  &.WhiteBgTextPink {
+    @apply bg-white text-pink;
+  }
+  &.hover-WhiteBgTextPink {
+    &:hover {
+      @apply text-pink;
+    }
+    .bs-button-bg {
+      @apply bg-white;
+    }
+  }
+  // colorScheme - Black Bg Text Avocado
+  &.BlackBgTextAvocado {
+    @apply bg-black text-avocado;
+  }
+  &.hover-BlackBgTextAvocado {
+    &:hover {
+      @apply text-avocado;
+    }
+    .bs-button-bg {
+      @apply bg-black;
+    }
+  }
+  // colorScheme - Black Bg Text SkyblueLight
+  &.BlackBgTextSkyblueLight {
+    @apply bg-black text-secondaryLight;
+  }
+  &.hover-BlackBgTextSkyblueLight {
+    &:hover {
+      @apply text-secondaryLight;
+    }
+    .bs-button-bg {
+      @apply bg-black;
+    }
+  }
+  // colorScheme - White Bg Text Blue
+  &.WhiteBgTextBlue {
+    @apply bg-white text-primary;
+  }
+  &.hover-WhiteBgTextBlue {
+    &:hover {
+      @apply text-primary;
+    }
+    .bs-button-bg {
+      @apply bg-white;
+    }
+  }
+  // colorScheme - White Bg Text Blue Light
+  &.WhiteBgTextBlueLight {
+    @apply bg-white text-primaryLight;
+  }
+  &.hover-WhiteBgTextBlueLight {
+    &:hover {
+      @apply text-primaryLight;
+    }
+    .bs-button-bg {
+      @apply bg-white;
+    }
+  }
+  // colorScheme - White Bg Text Skyblue
+  &.WhiteBgTextSkyblue {
+    @apply bg-white text-secondary;
+  }
+  &.hover-WhiteBgTextSkyblue {
+    &:hover {
+      @apply text-secondary;
+    }
+    .bs-button-bg {
+      @apply bg-white;
+    }
+  }
+  // colorScheme - White Bg Text Skyblue Light
+  &.WhiteBgTextSkyblueLight {
+    @apply bg-white text-secondaryLight;
+  }
+  &.hover-WhiteBgTextSkyblueLight {
+    &:hover {
+      @apply text-secondaryLight;
+    }
+    .bs-button-bg {
+      @apply bg-white;
+    }
+  }
+  // colorScheme - White Bg Text Green
+  &.WhiteBgTextGreen {
+    @apply bg-white text-success;
+  }
+  &.hover-WhiteBgTextGreen {
+    &:hover {
+      @apply text-success;
+    }
+    .bs-button-bg {
+      @apply bg-white;
+    }
+  }
+  // colorScheme - White Bg Text Black Light
+  &.WhiteBgTextBlackLight {
+    @apply bg-white text-blackLight;
+  }
+  &.hover-WhiteBgTextBlackLight {
+    &:hover {
+      @apply text-blackLight;
+    }
+    .bs-button-bg {
+      @apply bg-white;
+    }
+  }
+  // colorScheme - White Bg Text Yellow
+  &.WhiteBgTextYellow {
+    @apply bg-white text-warning;
+  }
+  &.hover-WhiteBgTextYellow {
+    &:hover {
+      @apply text-warning;
+    }
+    .bs-button-bg {
+      @apply bg-white;
+    }
+  }
+  // colorScheme - Blue Bg Text White
+  &.BlueBgTextWhite {
+    @apply bg-primary text-white;
+  }
+  &.hover-BlueBgTextWhite {
+    &:hover {
+      @apply text-white;
+    }
+    .bs-button-bg {
+      @apply bg-primary;
+    }
+  }
+  // colorScheme - Blue Light Bg Text White
+  &.BlueLightBgTextWhite {
+    @apply bg-primaryLight text-white;
+  }
+  &.hover-BlueLightBgTextWhite {
+    &:hover {
+      @apply text-white;
+    }
+    .bs-button-bg {
+      @apply bg-primaryLight;
+    }
+  }
+  // colorScheme - Skyblue Bg Text White
+  &.SkyblueBgTextWhite {
+    @apply bg-secondary text-white;
+  }
+  &.hover-SkyblueBgTextWhite {
+    &:hover {
+      @apply text-white;
+    }
+    .bs-button-bg {
+      @apply bg-secondary;
+    }
+  }
+  // colorScheme - Skyblue Light Bg Text White
+  &.SkyblueLightBgTextWhite {
+    @apply bg-secondaryLight text-white;
+  }
+  &.hover-SkyblueLightBgTextWhite {
+    &:hover {
+      @apply text-white;
+    }
+    .bs-button-bg {
+      @apply bg-secondaryLight;
+    }
+  }
+  // colorScheme - Green Bg Text White
+  &.GreenBgTextWhite {
+    @apply bg-success text-white;
+  }
+  &.hover-GreenBgTextWhite {
+    &:hover {
+      @apply text-white;
+    }
+    .bs-button-bg {
+      @apply bg-success;
+    }
+  }
+  // colorScheme - Black Light Bg Text White
+  &.BlackLightBgTextWhite {
+    @apply bg-blackLight text-white;
+  }
+  &.hover-BlackLightBgTextWhite {
+    &:hover {
+      @apply text-white;
+    }
+    .bs-button-bg {
+      @apply bg-blackLight;
+    }
+  }
+  // colorScheme - Yellow Bg Text White
+  &.YellowBgTextWhite {
+    @apply bg-warning text-white;
+  }
+  &.hover-YellowBgTextWhite {
+    &:hover {
+      @apply text-white;
+    }
+    .bs-button-bg {
+      @apply bg-warning;
+    }
+  }
+  // colorScheme - Gray Bg Text Black
+  &.GrayBgTextBlack {
+    @apply bg-gray text-black;
+  }
+  &.hover-GrayBgTextBlack {
+    &:hover {
+      @apply text-black;
+    }
+    .bs-button-bg {
+      @apply bg-gray;
+    }
+  }
+  // colorScheme - Ghost Bg Text Blue
+  &.GhostBgTextBlue {
+    @apply bg-ghost text-primary;
+  }
+  &.hover-GhostBgTextBlue {
+    &:hover {
+      @apply text-primary;
+    }
+    .bs-button-bg {
+      @apply bg-ghost;
+    }
+  }
+  // colorScheme - Ghost Bg Text Skyblue
+  &.GhostBgTextSkyblue {
+    @apply bg-ghost text-secondary;
+  }
+  &.hover-GhostBgTextSkyblue {
+    &:hover {
+      @apply text-secondary;
+    }
+    .bs-button-bg {
+      @apply bg-ghost;
+    }
+  }
+  // colorScheme - Ghost Bg Text Skyblue Light
+  &.GhostBgTextSkyblueLight {
+    @apply bg-ghost text-secondaryLight;
+  }
+  &.hover-GhostBgTextSkyblueLight {
+    &:hover {
+      @apply text-secondaryLight;
+    }
+    .bs-button-bg {
+      @apply bg-ghost;
+    }
+  }
+  // colorScheme - Blue Horizontal Gradient Bg Text White
+  &.BlueHorizontalGradientBgTextWhite {
+    @apply bg-primaryGradient text-white;
+  }
+  &.hover-BlueHorizontalGradientBgTextWhite {
+    &:hover {
+      @apply text-white;
+    }
+    .bs-button-bg {
+      @apply bg-primaryGradient;
+    }
+  }
+  // colorScheme - Blue Vertical Gradient Bg Text White
+  &.BlueVerticalGradientBgTextWhite {
+    @apply bg-primaryLightGradient text-white;
+  }
+  &.hover-BlueVerticalGradientBgTextWhite {
+    &:hover {
+      @apply text-white;
+    }
+    .bs-button-bg {
+      @apply bg-primaryLightGradient;
+    }
+  }
+  // colorScheme - Blue Vertical Reverse Gradient Bg Text White
+  &.BlueVerticalReverseGradientBgTextWhite {
+    @apply bg-primaryLightGradientReverse text-white;
+  }
+  &.hover-BlueVerticalReverseGradientBgTextWhite {
+    &:hover {
+      @apply text-white;
+    }
+    .bs-button-bg {
+      @apply bg-primaryLightGradientReverse;
+    }
+  }
+  // colorScheme - Skyblue Horizontal Gradient Bg Text White
+  &.SkyblueHorizontalGradientBgTextWhite {
+    @apply bg-secondaryGradient text-white;
+  }
+  &.hover-SkyblueHorizontalGradientBgTextWhite {
+    &:hover {
+      @apply text-white;
+    }
+    .bs-button-bg {
+      @apply bg-secondaryGradient;
+    }
+  }
+  // colorScheme - Skyblue Vertical Gradient Bg Text White
+  &.SkyblueVerticalGradientBgTextWhite {
+    @apply bg-secondaryLightGradient text-white;
+  }
+  &.hover-SkyblueVerticalGradientBgTextWhite {
+    &:hover {
+      @apply text-white;
+    }
+    .bs-button-bg {
+      @apply bg-secondaryLightGradient;
+    }
+  }
+  // colorScheme - SkyblueVerticalReverseGradientBgTextWhite
+  &.SkyblueVerticalReverseGradientBgTextWhite {
+    @apply bg-secondaryLightGradientReverse text-white;
+  }
+  &.hover-SkyblueVerticalReverseGradientBgTextWhite {
+    &:hover {
+      @apply text-white;
+    }
+    .bs-button-bg {
+      @apply bg-secondaryLightGradientReverse;
+    }
+  }
+
+  //  Button Sizes
+
+  // size - Large Button
+  &.btn-lg {
+    @apply min-h-[3rem] md:min-h-[4rem]  p-[.75rem_1.5rem] md:p-[.875rem_2rem] text-base md:text-md font-normal md:font-medium leading-[1.125] gap-3 md:gap-4 rounded-[.3125rem] md:rounded-md [&_.bs-btn-icon]:text-[1.25rem] md:[&_.bs-btn-icon]:text-[1.5rem];
+  }
+  // size - Medium Button
+  &.btn-md {
+    @apply min-h-[2.5rem] md:min-h-[3.5rem]  p-[.75rem_1rem] md:p-[.875rem_2rem] text-sm md:text-base font-normal leading-[1.125]  gap-2 md:gap-4 rounded-[.3125rem] [&_.bs-btn-icon]:text-[1rem] md:[&_.bs-btn-icon]:text-[1.25rem];
+  }
+  // size - Small Button
+  &.btn-sm {
+    @apply min-h-[3rem] p-[.75rem_1.5rem] text-base font-normal leading-[1.125] gap-3 rounded-[.3125rem] [&_.bs-btn-icon]:text-[1.25rem];
+  }
+  // size - Extra Small Button
+  &.btn-ex-sm {
+    @apply min-h-[2.5rem] p-[.75rem_1rem] text-sm font-normal leading-[1.125] gap-2 rounded-[.3125rem] [&_.bs-btn-icon]:text-[1rem];
+  }
+
+  // shiftIconOnHover
+  &.shift-icon-on-hover {
+    &:hover {
+      .bs-btn-icon {
+        @apply animate-toRightFromLeft;
+      }
+    }
+  }
+}
+
+/*==============
+  CTA Button
+================*/
+.cta-button {
+  // default
+  @apply relative inline-flex text-sm md:text-base font-medium capitalize transition-colors duration-300;
+
+  // colorScheme - Primary
+  &.Primary {
+    @apply text-primary;
+
+    &.WithOutIcon {
+      @apply border-b-primary;
+    }
+  }
+
+  &.hover-Primary {
+    @apply hover:text-primary;
+
+    &.WithOutIcon {
+      @apply hover:border-b-primary;
+    }
+  }
+
+  // colorScheme - Skyblue
+  &.Skyblue {
+    @apply text-secondary;
+
+    &.WithOutIcon {
+      @apply border-b-secondary;
+    }
+  }
+
+  &.hover-Skyblue {
+    @apply hover:text-secondary;
+
+    &.WithOutIcon {
+      @apply hover:border-b-secondary;
+    }
+  }
+
+  // variant - WithOutIcon
+  &.WithOutIcon {
+    @apply border-b-[.0625rem] md:border-b-[.125rem] border-solid;
+  }
+}

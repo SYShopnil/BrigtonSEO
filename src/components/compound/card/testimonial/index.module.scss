@@ -1,0 +1,44 @@
+/*testimonial-card*/
+.testimonial-card {
+  --transition: all 0.35s ease-in-out;
+  transition: var(--transition);
+  opacity: 0.75;
+
+  // transition
+  .image-wrapper,
+  .name,
+  .icon {
+    transition: var(--transition);
+  }
+
+  // normal state
+  .image-wrapper {
+    @apply border-blackLight;
+  }
+  .name {
+    @apply text-blackLight;
+  }
+  .icon {
+    @apply fill-blackLight;
+  }
+  .testimonial-text {
+    @media (max-width: 480px) {
+      min-height: 215px;
+    }
+  }
+
+  // active state
+  &.active {
+    opacity: 1;
+    .image-wrapper {
+      @apply border-primary;
+    }
+    .user-icon,
+    .name {
+      @apply text-primary;
+    }
+    .icon {
+      @apply fill-primary;
+    }
+  }
+}

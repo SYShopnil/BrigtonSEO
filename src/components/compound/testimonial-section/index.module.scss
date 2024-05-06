@@ -1,0 +1,33 @@
+/**
+* The :global() function is used to access global classes.
+*/
+
+/*testimonial-section*/
+.testimonial-section {
+  --duration: 0.35s;
+  --transition: all var(--duration) ease-in-out;
+  --carousel-item-normal: scale(0.9) translateZ(0);
+  --carousel-item-active: scale(1) translateZ(0);
+
+  @media (min-width: 768px) {
+    :global(.swiper-main-container) {
+      -webkit-user-select: none; /* Safari */
+      -ms-user-select: none; /* IE 10 and IE 11 */
+      user-select: none; /* Standard syntax */
+
+      :global(.swiper-wrapper) {
+        align-items: center;
+      }
+
+      :global(.swiper-slide) {
+        transition: transform var(--duration);
+        transform: var(--carousel-item-normal);
+        min-height: 420px;
+
+        &:global(.swiper-slide-active) {
+          transform: var(--carousel-item-active);
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+.bottomBorder {
+  position: relative;
+  &::before {
+    content: '';
+    position: absolute;
+    @apply h-[0.063rem] w-[10rem] bottom-0 left-0 bg-primary;
+  }
+}
+
+.topicLineClamp {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+}

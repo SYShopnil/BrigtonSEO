@@ -1,0 +1,110 @@
+// custom-container for only large or above device
+@media (min-width: 1440px) {
+  .custom-container {
+    max-width: 1760px;
+  }
+}
+
+/*image-accordion-grid*/
+.image-accordion-grid {
+  display: flex;
+  .content {
+    @apply flex items-end justify-center absolute left-0 bottom-0;
+    transition: background-color 0.4s;
+    opacity: 1;
+    visibility: visible;
+    background: rgba(0, 0, 0, 0);
+  }
+  .content-inner {
+    .content-inner-inner {
+      visibility: hidden;
+      opacity: 0;
+      transform-style: preserve-3d;
+    }
+    .title,
+    .description {
+      opacity: 0;
+      transition: opacity 0.6s cubic-bezier(0.16, 1, 0.3, 1),
+        transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+      transform: translateX(-20px);
+    }
+  }
+
+  .title-inactive {
+    @apply absolute left-1/2 bottom-0 p-[3.75rem_2rem] z-40;
+    writing-mode: vertical-rl;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.4s ease-in-out;
+    transform: translateX(-50%);
+    > span {
+      display: block;
+      transform: rotate(180deg);
+    }
+  }
+  .card {
+    flex: 1;
+    text-align: left;
+    transition: flex 0.4s;
+    &.active {
+      flex: 3;
+      .title-inactive {
+        visibility: hidden;
+        opacity: 0;
+        transform: translateX(0);
+      }
+      .content-inner {
+        .content-inner-inner {
+          opacity: 1;
+          visibility: visible;
+          transform: none;
+          transition: all 0.5s 0.5s;
+        }
+        .description,
+        .title {
+          opacity: 1;
+          transform: translateX(0);
+          transition-delay: 0.6s;
+        }
+        .description {
+          transition-delay: 0.8s;
+        }
+      }
+    }
+  }
+}
+
+// card-overlay for both card
+.card-overlay {
+  background: linear-gradient(
+    180deg,
+    rgba(20, 29, 46, 0) 31.77%,
+    rgba(20, 29, 46, 0.88) 81.49%
+  );
+  transition: 0.4s;
+  .active & {
+    background: linear-gradient(
+      180deg,
+      rgba(49, 122, 245, 0) 0%,
+      rgba(12, 94, 232, 0.75) 100%
+    );
+  }
+}
+
+// card size
+.card {
+  &.large {
+    @apply min-h-[720px];
+  }
+  &.small {
+    @apply min-h-[300px] md:min-h-[500px];
+  }
+}
+
+// line clamp
+.description {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 3;
+}

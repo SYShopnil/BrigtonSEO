@@ -1,0 +1,153 @@
+// after-before-common
+.after-before-common {
+  content: '';
+  @apply w-full z-[-1] inset-0 absolute;
+  transition: all 0.3s ease-in-out;
+}
+
+/* person-card */
+.person-card {
+  // local variables
+  --duration1: 0.1s;
+  --duration2: 0.35s;
+  --duration3: 0.4s;
+
+  --image-normal-scale: 1;
+  --image-hover-scale: 1.15;
+
+  // name and desigantion transition here for both variant
+  .designation,
+  .name {
+    transition: all ease-in-out var(--duration3);
+  }
+  // image
+  .image {
+    transition: all ease-in-out var(--duration3);
+  }
+
+  // person-normal
+  &.person-normal {
+    transition: all ease-in-out var(--duration2);
+
+    // fixed area only shown for large or above device
+    .bottom-fixed-area {
+      @apply bg-white h-[0] lg:h-[104px] lg:block hidden;
+    }
+
+    // content with wrapper
+    .content {
+      @apply lg:absolute lg:left-0 lg:bottom-0  lg:w-full bg-white;
+      @media (min-width: 992px) {
+        transform: translateY(62px);
+        transition: all var(--duration2) ease-out;
+      }
+    }
+    .event-link {
+      transition: all var(--duration2) ease-out;
+      @apply invisible opacity-0;
+    }
+    .designation,
+    .name {
+      @apply text-black;
+    }
+
+    // line clamp for - name, designation, event-link
+    .event-link,
+    .designation,
+    .name {
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .name,
+    .designation {
+      -webkit-line-clamp: 1;
+    }
+    .event-link {
+      -webkit-line-clamp: 2;
+    }
+
+    // person-normal  hover
+    &:hover {
+      @media (min-width: 992px) {
+        .content {
+          transform: translateY(0);
+        }
+        .event-link {
+          @apply visible opacity-100;
+        }
+      }
+      .name {
+        @apply text-primary;
+      }
+    }
+  }
+
+  // person-team
+  &.person-team {
+    // person-team hover
+    &:hover {
+      .name {
+        @apply text-primary;
+      }
+    }
+  }
+
+  // person-transparent
+  &.person-transparent {
+    // content with wrapper
+    .content {
+      @apply absolute left-0 bottom-0 block z-10 w-full;
+      &:after {
+        @extend .after-before-common;
+        @apply visible opacity-100;
+        background: linear-gradient(
+          180deg,
+          rgba(61, 67, 79, 0) 0%,
+          rgba(56, 62, 74, 0.54) 44.27%,
+          rgba(20, 29, 46, 0.88) 100%
+        );
+      }
+      &:before {
+        @extend .after-before-common;
+        @apply invisible opacity-0;
+        background: linear-gradient(
+          180deg,
+          rgba(12, 94, 232, 0.03) 0%,
+          rgba(12, 94, 232, 0.8) 44.27%,
+          #0c5ee8 100%
+        );
+        transform: translateY(50%);
+      }
+    }
+    .designation,
+    .name {
+      @apply text-white;
+    }
+
+    // person-transparent  hover
+    &:hover {
+      .content {
+        &::after {
+          @apply invisible opacity-0;
+        }
+        &::before {
+          @apply visible opacity-100;
+          transform: translateY(0);
+        }
+      }
+    }
+  }
+
+  // image hover effect for both variant
+  @media (min-width: 992px) {
+    .image {
+      transform: scale(var(--image-normal-scale));
+    }
+    &:hover {
+      .image {
+        transform: scale(var(--image-hover-scale));
+      }
+    }
+  }
+}

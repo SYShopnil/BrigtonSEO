@@ -1,0 +1,11 @@
+.activeBorder {
+    animation: fadeIn 10s;
+    @apply border border-[#CED4DA66] rounded-xl
+}
+
+.text-active {
+    @apply text-primary
+}
+.text-inactive {
+    @apply text-blackLight
+}

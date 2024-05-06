@@ -1,0 +1,389 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testimonial Card renders testimonial card with icon and active state false 1`] = `
+<div
+  class="relative overflow-hidden bg-white card radius-2xl shadow-none "
+  data-testid="testimonial-card"
+>
+  <div
+    class="active testimonial-card p-[1.5rem_1rem] md:p-[2.5rem] md:min-h-[420px]"
+  >
+    <div
+      class="icon inline-flex w-[56px] md:w-[80px]"
+    >
+      <svg
+        fill="inherit"
+        style="width: 100%; height: 100%;"
+        viewBox="0 0 80 56"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g
+          clip-path="url(#clip0_2147_11743)"
+        >
+          <path
+            d="M57.1819 36.6025C56.612 36.4544 56.1061 36.3374 55.6091 36.1938C47.4598 33.8477 41.9967 26.1911 42.3944 17.6795C42.7942 9.16797 49.0238 1.96639 57.3034 0.362607C68.4018 -1.78903 77.5032 5.95819 79.2108 15.7024C80.0392 20.4254 79.4251 25.1153 78.294 29.7035C74.9694 43.1921 66.2921 51.6308 53.1923 55.7816C51.3787 56.356 49.6733 55.7308 48.688 54.2397C47.6917 52.7309 47.8088 50.8863 49.0702 49.4305C51.9332 46.1236 54.436 42.5802 56.3071 38.6127C56.6076 37.9743 56.8749 37.316 57.1841 36.6047L57.1819 36.6025ZM56.2696 48.9269C56.5788 48.8385 56.6893 48.8208 56.7821 48.7767C61.0588 46.7421 64.759 43.9675 67.6573 40.201C72.6454 33.7196 74.479 26.222 74.1653 18.2384C73.8737 10.8204 67.664 4.75866 59.8704 5.30872C53.7115 5.74391 48.1844 11.0589 47.7337 17.209C47.2234 24.1676 51.319 29.8073 58.1252 31.5127C61.768 32.4273 63.3496 35.5686 61.916 39.0236C60.4756 42.4985 58.5869 45.7193 56.2696 48.9247V48.9269Z"
+            fill="inherit"
+          />
+          <path
+            d="M14.8383 36.8452C12.8479 36.0058 10.9702 35.4071 9.28248 34.466C2.65526 30.7703 -0.989709 23.107 0.234118 15.7243C1.53084 7.90415 7.41361 1.79827 15.0327 0.364586C25.2187 -1.55289 34.8415 5.03898 36.8097 15.2714C37.5299 19.0136 37.1875 22.7403 36.6131 26.4471C35.6102 32.9285 33.2487 38.8555 29.0448 43.9673C24.1827 49.881 17.9332 53.6784 10.6411 55.8388C8.94891 56.3403 7.25897 55.6511 6.3179 54.1953C5.37905 52.7417 5.51822 51.023 6.59846 49.5761C8.52035 46.9959 10.4842 44.4378 12.2647 41.7604C13.3052 40.1942 14.0276 38.4181 14.8361 36.8474L14.8383 36.8452ZM13.9768 48.9421C14.4186 48.7521 14.6638 48.6615 14.8957 48.5467C23.4051 44.3494 28.6737 37.5786 30.8298 28.3977C31.7399 24.523 32.2856 20.5798 31.656 16.6013C30.5846 9.83709 24.7151 5.0434 17.9597 5.3107C9.01297 5.66415 2.9093 14.9776 6.22512 23.2749C7.95704 27.6113 11.1403 30.366 15.6998 31.486C19.4354 32.405 21.1076 35.5728 19.5326 39.0786C18.4987 41.3827 17.2506 43.5939 16.0334 45.8096C15.4723 46.8324 14.7521 47.7713 13.9768 48.9399V48.9421Z"
+            fill="inherit"
+          />
+        </g>
+        <defs>
+          <clippath
+            id="clip0_2147_11743"
+          >
+            <rect
+              fill="white"
+              style="width: 100%; height: 100%;"
+            />
+          </clippath>
+        </defs>
+      </svg>
+    </div>
+    <div
+      class="mb-[1.875rem] mt-[1.5rem] md:mt-[2.5rem] md:mb-[2.5rem]"
+    >
+      <p
+        class="testimonial-text text-sm md:text-[1.25rem] md:font-medium min-h-[150px]"
+      >
+        BrightonSEO's Local SEO Training with Greg Gifford is the perfect course to get you up to speed with all things local search, from review signals to link building, Google My Business to content creation, and much, much more.
+      </p>
+    </div>
+    <div
+      class="inline-flex items-center gap-2 md:gap-4"
+    >
+      <div
+        class="image-wrapper inline-grid place-items-center  md:w-[96px] md:h-[96px] w-[40px] h-[40px] rounded-full overflow-hidden border-[.125rem] md:border-[.25rem]"
+      >
+        <span
+          style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
+        >
+          <span
+            style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
+          >
+            <img
+              alt=""
+              aria-hidden="true"
+              src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2796%27%20height=%2796%27/%3e"
+              style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
+            />
+          </span>
+          <img
+            alt="authorImage"
+            class="image"
+            data-nimg="intrinsic"
+            decoding="async"
+            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+            style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+          />
+          <noscript />
+        </span>
+      </div>
+      <div>
+        <p
+          class="name md:font-medium text-base md:text-[1.25rem] capitalize"
+        >
+          Stephanie Newton
+        </p>
+        <p
+          class="text-black text-sm md:text-base"
+        >
+          CM, BrightLocal
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Testimonial Card renders testimonial card with icon and active state true 1`] = `
+<div
+  class="relative overflow-hidden bg-white card radius-2xl shadow-none "
+  data-testid="testimonial-card"
+>
+  <div
+    class="active testimonial-card p-[1.5rem_1rem] md:p-[2.5rem] md:min-h-[420px]"
+  >
+    <div
+      class="icon inline-flex w-[56px] md:w-[80px]"
+    >
+      <svg
+        fill="inherit"
+        style="width: 100%; height: 100%;"
+        viewBox="0 0 80 56"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g
+          clip-path="url(#clip0_2147_11743)"
+        >
+          <path
+            d="M57.1819 36.6025C56.612 36.4544 56.1061 36.3374 55.6091 36.1938C47.4598 33.8477 41.9967 26.1911 42.3944 17.6795C42.7942 9.16797 49.0238 1.96639 57.3034 0.362607C68.4018 -1.78903 77.5032 5.95819 79.2108 15.7024C80.0392 20.4254 79.4251 25.1153 78.294 29.7035C74.9694 43.1921 66.2921 51.6308 53.1923 55.7816C51.3787 56.356 49.6733 55.7308 48.688 54.2397C47.6917 52.7309 47.8088 50.8863 49.0702 49.4305C51.9332 46.1236 54.436 42.5802 56.3071 38.6127C56.6076 37.9743 56.8749 37.316 57.1841 36.6047L57.1819 36.6025ZM56.2696 48.9269C56.5788 48.8385 56.6893 48.8208 56.7821 48.7767C61.0588 46.7421 64.759 43.9675 67.6573 40.201C72.6454 33.7196 74.479 26.222 74.1653 18.2384C73.8737 10.8204 67.664 4.75866 59.8704 5.30872C53.7115 5.74391 48.1844 11.0589 47.7337 17.209C47.2234 24.1676 51.319 29.8073 58.1252 31.5127C61.768 32.4273 63.3496 35.5686 61.916 39.0236C60.4756 42.4985 58.5869 45.7193 56.2696 48.9247V48.9269Z"
+            fill="inherit"
+          />
+          <path
+            d="M14.8383 36.8452C12.8479 36.0058 10.9702 35.4071 9.28248 34.466C2.65526 30.7703 -0.989709 23.107 0.234118 15.7243C1.53084 7.90415 7.41361 1.79827 15.0327 0.364586C25.2187 -1.55289 34.8415 5.03898 36.8097 15.2714C37.5299 19.0136 37.1875 22.7403 36.6131 26.4471C35.6102 32.9285 33.2487 38.8555 29.0448 43.9673C24.1827 49.881 17.9332 53.6784 10.6411 55.8388C8.94891 56.3403 7.25897 55.6511 6.3179 54.1953C5.37905 52.7417 5.51822 51.023 6.59846 49.5761C8.52035 46.9959 10.4842 44.4378 12.2647 41.7604C13.3052 40.1942 14.0276 38.4181 14.8361 36.8474L14.8383 36.8452ZM13.9768 48.9421C14.4186 48.7521 14.6638 48.6615 14.8957 48.5467C23.4051 44.3494 28.6737 37.5786 30.8298 28.3977C31.7399 24.523 32.2856 20.5798 31.656 16.6013C30.5846 9.83709 24.7151 5.0434 17.9597 5.3107C9.01297 5.66415 2.9093 14.9776 6.22512 23.2749C7.95704 27.6113 11.1403 30.366 15.6998 31.486C19.4354 32.405 21.1076 35.5728 19.5326 39.0786C18.4987 41.3827 17.2506 43.5939 16.0334 45.8096C15.4723 46.8324 14.7521 47.7713 13.9768 48.9399V48.9421Z"
+            fill="inherit"
+          />
+        </g>
+        <defs>
+          <clippath
+            id="clip0_2147_11743"
+          >
+            <rect
+              fill="white"
+              style="width: 100%; height: 100%;"
+            />
+          </clippath>
+        </defs>
+      </svg>
+    </div>
+    <div
+      class="mb-[1.875rem] mt-[1.5rem] md:mt-[2.5rem] md:mb-[2.5rem]"
+    >
+      <p
+        class="testimonial-text text-sm md:text-[1.25rem] md:font-medium min-h-[150px]"
+      >
+        BrightonSEO's Local SEO Training with Greg Gifford is the perfect course to get you up to speed with all things local search, from review signals to link building, Google My Business to content creation, and much, much more.
+      </p>
+    </div>
+    <div
+      class="inline-flex items-center gap-2 md:gap-4"
+    >
+      <div
+        class="image-wrapper inline-grid place-items-center  md:w-[96px] md:h-[96px] w-[40px] h-[40px] rounded-full overflow-hidden border-[.125rem] md:border-[.25rem]"
+      >
+        <span
+          style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
+        >
+          <span
+            style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
+          >
+            <img
+              alt=""
+              aria-hidden="true"
+              src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2796%27%20height=%2796%27/%3e"
+              style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
+            />
+          </span>
+          <img
+            alt="authorImage"
+            class="image"
+            data-nimg="intrinsic"
+            decoding="async"
+            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+            style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+          />
+          <noscript />
+        </span>
+      </div>
+      <div>
+        <p
+          class="name md:font-medium text-base md:text-[1.25rem] capitalize"
+        >
+          Stephanie Newton
+        </p>
+        <p
+          class="text-black text-sm md:text-base"
+        >
+          CM, BrightLocal
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Testimonial Card renders testimonial card with image and active state false 1`] = `
+<div
+  class="relative overflow-hidden bg-white card radius-2xl shadow-none "
+  data-testid="testimonial-card"
+>
+  <div
+    class="active testimonial-card p-[1.5rem_1rem] md:p-[2.5rem] md:min-h-[420px]"
+  >
+    <div
+      class="icon inline-flex w-[56px] md:w-[80px]"
+    >
+      <svg
+        fill="inherit"
+        style="width: 100%; height: 100%;"
+        viewBox="0 0 80 56"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g
+          clip-path="url(#clip0_2147_11743)"
+        >
+          <path
+            d="M57.1819 36.6025C56.612 36.4544 56.1061 36.3374 55.6091 36.1938C47.4598 33.8477 41.9967 26.1911 42.3944 17.6795C42.7942 9.16797 49.0238 1.96639 57.3034 0.362607C68.4018 -1.78903 77.5032 5.95819 79.2108 15.7024C80.0392 20.4254 79.4251 25.1153 78.294 29.7035C74.9694 43.1921 66.2921 51.6308 53.1923 55.7816C51.3787 56.356 49.6733 55.7308 48.688 54.2397C47.6917 52.7309 47.8088 50.8863 49.0702 49.4305C51.9332 46.1236 54.436 42.5802 56.3071 38.6127C56.6076 37.9743 56.8749 37.316 57.1841 36.6047L57.1819 36.6025ZM56.2696 48.9269C56.5788 48.8385 56.6893 48.8208 56.7821 48.7767C61.0588 46.7421 64.759 43.9675 67.6573 40.201C72.6454 33.7196 74.479 26.222 74.1653 18.2384C73.8737 10.8204 67.664 4.75866 59.8704 5.30872C53.7115 5.74391 48.1844 11.0589 47.7337 17.209C47.2234 24.1676 51.319 29.8073 58.1252 31.5127C61.768 32.4273 63.3496 35.5686 61.916 39.0236C60.4756 42.4985 58.5869 45.7193 56.2696 48.9247V48.9269Z"
+            fill="inherit"
+          />
+          <path
+            d="M14.8383 36.8452C12.8479 36.0058 10.9702 35.4071 9.28248 34.466C2.65526 30.7703 -0.989709 23.107 0.234118 15.7243C1.53084 7.90415 7.41361 1.79827 15.0327 0.364586C25.2187 -1.55289 34.8415 5.03898 36.8097 15.2714C37.5299 19.0136 37.1875 22.7403 36.6131 26.4471C35.6102 32.9285 33.2487 38.8555 29.0448 43.9673C24.1827 49.881 17.9332 53.6784 10.6411 55.8388C8.94891 56.3403 7.25897 55.6511 6.3179 54.1953C5.37905 52.7417 5.51822 51.023 6.59846 49.5761C8.52035 46.9959 10.4842 44.4378 12.2647 41.7604C13.3052 40.1942 14.0276 38.4181 14.8361 36.8474L14.8383 36.8452ZM13.9768 48.9421C14.4186 48.7521 14.6638 48.6615 14.8957 48.5467C23.4051 44.3494 28.6737 37.5786 30.8298 28.3977C31.7399 24.523 32.2856 20.5798 31.656 16.6013C30.5846 9.83709 24.7151 5.0434 17.9597 5.3107C9.01297 5.66415 2.9093 14.9776 6.22512 23.2749C7.95704 27.6113 11.1403 30.366 15.6998 31.486C19.4354 32.405 21.1076 35.5728 19.5326 39.0786C18.4987 41.3827 17.2506 43.5939 16.0334 45.8096C15.4723 46.8324 14.7521 47.7713 13.9768 48.9399V48.9421Z"
+            fill="inherit"
+          />
+        </g>
+        <defs>
+          <clippath
+            id="clip0_2147_11743"
+          >
+            <rect
+              fill="white"
+              style="width: 100%; height: 100%;"
+            />
+          </clippath>
+        </defs>
+      </svg>
+    </div>
+    <div
+      class="mb-[1.875rem] mt-[1.5rem] md:mt-[2.5rem] md:mb-[2.5rem]"
+    >
+      <p
+        class="testimonial-text text-sm md:text-[1.25rem] md:font-medium min-h-[150px]"
+      >
+        BrightonSEO's Local SEO Training with Greg Gifford is the perfect course to get you up to speed with all things local search, from review signals to link building, Google My Business to content creation, and much, much more.
+      </p>
+    </div>
+    <div
+      class="inline-flex items-center gap-2 md:gap-4"
+    >
+      <div
+        class="image-wrapper inline-grid place-items-center  md:w-[96px] md:h-[96px] w-[40px] h-[40px] rounded-full overflow-hidden border-[.125rem] md:border-[.25rem]"
+      >
+        <span
+          style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
+        >
+          <span
+            style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
+          >
+            <img
+              alt=""
+              aria-hidden="true"
+              src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2796%27%20height=%2796%27/%3e"
+              style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
+            />
+          </span>
+          <img
+            alt="authorImage"
+            class="image"
+            data-nimg="intrinsic"
+            decoding="async"
+            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+            style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+          />
+          <noscript />
+        </span>
+      </div>
+      <div>
+        <p
+          class="name md:font-medium text-base md:text-[1.25rem] capitalize"
+        >
+          Stephanie Newton
+        </p>
+        <p
+          class="text-black text-sm md:text-base"
+        >
+          CM, BrightLocal
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Testimonial Card renders testimonial card with image and active state true 1`] = `
+<div
+  class="relative overflow-hidden bg-white card radius-2xl shadow-none "
+  data-testid="testimonial-card"
+>
+  <div
+    class="active testimonial-card p-[1.5rem_1rem] md:p-[2.5rem] md:min-h-[420px]"
+  >
+    <div
+      class="icon inline-flex w-[56px] md:w-[80px]"
+    >
+      <svg
+        fill="inherit"
+        style="width: 100%; height: 100%;"
+        viewBox="0 0 80 56"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g
+          clip-path="url(#clip0_2147_11743)"
+        >
+          <path
+            d="M57.1819 36.6025C56.612 36.4544 56.1061 36.3374 55.6091 36.1938C47.4598 33.8477 41.9967 26.1911 42.3944 17.6795C42.7942 9.16797 49.0238 1.96639 57.3034 0.362607C68.4018 -1.78903 77.5032 5.95819 79.2108 15.7024C80.0392 20.4254 79.4251 25.1153 78.294 29.7035C74.9694 43.1921 66.2921 51.6308 53.1923 55.7816C51.3787 56.356 49.6733 55.7308 48.688 54.2397C47.6917 52.7309 47.8088 50.8863 49.0702 49.4305C51.9332 46.1236 54.436 42.5802 56.3071 38.6127C56.6076 37.9743 56.8749 37.316 57.1841 36.6047L57.1819 36.6025ZM56.2696 48.9269C56.5788 48.8385 56.6893 48.8208 56.7821 48.7767C61.0588 46.7421 64.759 43.9675 67.6573 40.201C72.6454 33.7196 74.479 26.222 74.1653 18.2384C73.8737 10.8204 67.664 4.75866 59.8704 5.30872C53.7115 5.74391 48.1844 11.0589 47.7337 17.209C47.2234 24.1676 51.319 29.8073 58.1252 31.5127C61.768 32.4273 63.3496 35.5686 61.916 39.0236C60.4756 42.4985 58.5869 45.7193 56.2696 48.9247V48.9269Z"
+            fill="inherit"
+          />
+          <path
+            d="M14.8383 36.8452C12.8479 36.0058 10.9702 35.4071 9.28248 34.466C2.65526 30.7703 -0.989709 23.107 0.234118 15.7243C1.53084 7.90415 7.41361 1.79827 15.0327 0.364586C25.2187 -1.55289 34.8415 5.03898 36.8097 15.2714C37.5299 19.0136 37.1875 22.7403 36.6131 26.4471C35.6102 32.9285 33.2487 38.8555 29.0448 43.9673C24.1827 49.881 17.9332 53.6784 10.6411 55.8388C8.94891 56.3403 7.25897 55.6511 6.3179 54.1953C5.37905 52.7417 5.51822 51.023 6.59846 49.5761C8.52035 46.9959 10.4842 44.4378 12.2647 41.7604C13.3052 40.1942 14.0276 38.4181 14.8361 36.8474L14.8383 36.8452ZM13.9768 48.9421C14.4186 48.7521 14.6638 48.6615 14.8957 48.5467C23.4051 44.3494 28.6737 37.5786 30.8298 28.3977C31.7399 24.523 32.2856 20.5798 31.656 16.6013C30.5846 9.83709 24.7151 5.0434 17.9597 5.3107C9.01297 5.66415 2.9093 14.9776 6.22512 23.2749C7.95704 27.6113 11.1403 30.366 15.6998 31.486C19.4354 32.405 21.1076 35.5728 19.5326 39.0786C18.4987 41.3827 17.2506 43.5939 16.0334 45.8096C15.4723 46.8324 14.7521 47.7713 13.9768 48.9399V48.9421Z"
+            fill="inherit"
+          />
+        </g>
+        <defs>
+          <clippath
+            id="clip0_2147_11743"
+          >
+            <rect
+              fill="white"
+              style="width: 100%; height: 100%;"
+            />
+          </clippath>
+        </defs>
+      </svg>
+    </div>
+    <div
+      class="mb-[1.875rem] mt-[1.5rem] md:mt-[2.5rem] md:mb-[2.5rem]"
+    >
+      <p
+        class="testimonial-text text-sm md:text-[1.25rem] md:font-medium min-h-[150px]"
+      >
+        BrightonSEO's Local SEO Training with Greg Gifford is the perfect course to get you up to speed with all things local search, from review signals to link building, Google My Business to content creation, and much, much more.
+      </p>
+    </div>
+    <div
+      class="inline-flex items-center gap-2 md:gap-4"
+    >
+      <div
+        class="image-wrapper inline-grid place-items-center  md:w-[96px] md:h-[96px] w-[40px] h-[40px] rounded-full overflow-hidden border-[.125rem] md:border-[.25rem]"
+      >
+        <span
+          style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
+        >
+          <span
+            style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
+          >
+            <img
+              alt=""
+              aria-hidden="true"
+              src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2796%27%20height=%2796%27/%3e"
+              style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
+            />
+          </span>
+          <img
+            alt="authorImage"
+            class="image"
+            data-nimg="intrinsic"
+            decoding="async"
+            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+            style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+          />
+          <noscript />
+        </span>
+      </div>
+      <div>
+        <p
+          class="name md:font-medium text-base md:text-[1.25rem] capitalize"
+        >
+          Stephanie Newton
+        </p>
+        <p
+          class="text-black text-sm md:text-base"
+        >
+          CM, BrightLocal
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

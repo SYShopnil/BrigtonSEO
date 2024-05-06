@@ -1,0 +1,129 @@
+// list-content-section
+.list-content-section {
+  &.gSkyblueLight {
+    @apply bg-secondaryLightGradient;
+  }
+  &.body {
+    @apply bg-body;
+  }
+}
+
+// content-head
+.content-head {
+  > p {
+    @apply text-[1.25rem] font-medium leading-[1.5] md:text-[1.25rem] md:font-semibold md:leading-[1.4];
+    .gSkyblueLight & {
+      @apply text-white;
+    }
+  }
+  p + p {
+    @apply mt-[1rem] md:mt-[2rem];
+  }
+}
+
+/*sectionTheme config*/
+.body {
+  &.skyblue {
+    .list-item {
+      .list-item-icon,
+      .list-item-title {
+        @apply text-secondary;
+      }
+    }
+  }
+  &.blue {
+    .list-item {
+      .list-item-icon,
+      .list-item-title {
+        @apply text-primary;
+      }
+    }
+  }
+}
+
+// list-item
+.list-item {
+  @media (max-width: 991px) {
+    @apply mr-[1.75rem];
+  }
+  // colorSchemes -  gSkyblueLight, body
+  .list-item-title {
+    .gSkyblueLight & {
+      @apply text-white;
+    }
+  }
+  .list-item-description {
+    .gSkyblueLight & {
+      @apply text-white;
+    }
+    .body & {
+      @apply text-blackLight;
+    }
+  }
+  .list-item-head + p {
+    @apply mt-[.5rem] md:mt-[1.5rem];
+  }
+  p + p {
+    @apply mt-[.5rem] md:mt-[1.5rem];
+  }
+  p {
+    .gSkyblueLight & {
+      @apply text-white;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  //hide-scrollbarr
+  .hide-scrollbar {
+    -ms-overflow-style: none;
+  }
+  .hide-scrollbar::-webkit-scrollbar {
+    width: 0 !important;
+    display: none;
+  }
+
+  .list-wrapper {
+    .gSkyblueLight & {
+      -webkit-mask-image: linear-gradient(
+        to right,
+        transparent,
+        black 0,
+        black 90%,
+        transparent
+      );
+    }
+    .body & {
+      -webkit-mask-image: linear-gradient(
+        to right,
+        transparent,
+        white 0,
+        white 90%,
+        transparent
+      );
+    }
+  }
+}
+
+// list-item-head
+.list-item-head {
+  &.icon {
+    @apply inline-flex flex-wrap gap-4;
+  }
+  &.number {
+    @apply grid gap-[.5rem];
+  }
+  .list-item-icon {
+    .gSkyblueLight & {
+      @apply text-white;
+    }
+  }
+  .list-item-number {
+    .gSkyblueLight & {
+      @apply text-white;
+    }
+    .body & {
+      @apply text-black;
+    }
+  }
+}

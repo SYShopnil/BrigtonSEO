@@ -1,0 +1,673 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List Content Section renders list content section with section theme blue 1`] = `
+<section
+  class="section-padding-primary list-content-section gSkyblueLight blue"
+  data-testid="list-content-section"
+>
+  <div
+    class="container"
+  >
+    <div
+      class="lg:flex lg:justify-between grid max-md:gap-[3.125rem]"
+    >
+      <div
+        class="lg:flex-[0_0_44%]"
+      >
+        <div
+          class="lg:sticky lg:top-[7.5rem]"
+        >
+          <div
+            class="content-head"
+          >
+            <div
+              class="section-heading white  mb-[1.875rem] md:mb-[3.25rem]"
+              data-testid="section-heading"
+            >
+              <h2
+                class="section-title text-[1.75rem] font-medium leading-[1.3] md:text-[3rem] md:font-bold md:leading-[1.1] capitalize"
+              >
+                Why a ballot?
+              </h2>
+            </div>
+            <p>
+              We know that the cost and logistics of organising childcare can prevent some people from taking part in personal development and networking opportunities like attending conferences.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="lg:flex-[0_0_48%]"
+      >
+        <div
+          class="grid gap-[2.5rem] lg:gap-[3.5rem]"
+        >
+          <div
+            class="hide-scrollbar list-wrapper max-md:overflow-x-auto"
+          >
+            <div
+              class="gap-[2rem] lg:grid lg:gap-[3rem] max-md:block max-md:whitespace-nowrap"
+            >
+              <div
+                class="list-item max-md:w-[75%] max-sm:w-[80%] max-md:inline-block max-md:align-top max-md:whitespace-normal"
+              >
+                <div
+                  class=" list-item-head number "
+                >
+                  <span
+                    class="list-item-number w-max text-sm"
+                  >
+                    /01
+                  </span>
+                  <h3
+                    class="list-item-title text-[1.25rem] font-medium leading-[1.5] md:text-[1.25rem] md:font-semibold md:leading-[1.4]"
+                  >
+                    Communication Data
+                  </h3>
+                </div>
+                <p>
+                  That includes any communication that you send to us whether that be through the contact form on our website, through email, text, social media messaging, social media posting or any other communication.
+                </p>
+                <p>
+                  We process this data for the purposes of communicating with you, for record keeping and for the establishment, pursuance or defence of legal claims. Our lawful ground for this processing is our legitimate interests which in this case are to reply to communications sent to us, to keep records and to establish, pursue or defend legal claims.
+                </p>
+              </div>
+              <div
+                class="list-item max-md:w-[75%] max-sm:w-[80%] max-md:inline-block max-md:align-top max-md:whitespace-normal"
+              >
+                <div
+                  class=" list-item-head number "
+                >
+                  <span
+                    class="list-item-number w-max text-sm"
+                  >
+                    /02
+                  </span>
+                  <h3
+                    class="list-item-title text-[1.25rem] font-medium leading-[1.5] md:text-[1.25rem] md:font-semibold md:leading-[1.4]"
+                  >
+                    Customer Data
+                  </h3>
+                </div>
+                <p>
+                  Contrary to popular belief,
+                  <strong>
+                     
+                    Lorem Ipsum
+                  </strong>
+                   is not simply 
+                  <a
+                    href="https://www.google.com/"
+                  >
+                    <strong>
+                      <em>
+                        <span
+                          style="text-decoration: underline;"
+                        >
+                          random text
+                        </span>
+                      </em>
+                    </strong>
+                  </a>
+                  . It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. 
+                </p>
+                <p>
+                  Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem 
+                </p>
+              </div>
+              <div
+                class="list-item max-md:w-[75%] max-sm:w-[80%] max-md:inline-block max-md:align-top max-md:whitespace-normal"
+              >
+                <div
+                  class=" list-item-head number "
+                >
+                  <span
+                    class="list-item-number w-max text-sm"
+                  >
+                    /03
+                  </span>
+                  <h3
+                    class="list-item-title text-[1.25rem] font-medium leading-[1.5] md:text-[1.25rem] md:font-semibold md:leading-[1.4]"
+                  >
+                    User Data
+                  </h3>
+                </div>
+                <p>
+                  That includes any communication that you send to us whether that be through the contact form on our website, through email, text, social media messaging, social media posting or any other communication.
+                </p>
+                <p>
+                  We process this data for the purposes of communicating with you, for record keeping and for the establishment, pursuance or defence of legal claims. Our lawful ground for this processing is our legitimate interests which in this case are to reply to communications sent to us, to keep records and to establish, pursue or defend legal claims.
+                </p>
+              </div>
+              <div
+                class="list-item max-md:w-[75%] max-sm:w-[80%] max-md:inline-block max-md:align-top max-md:whitespace-normal"
+              >
+                <div
+                  class=" list-item-head number "
+                >
+                  <span
+                    class="list-item-number w-max text-sm"
+                  >
+                    /04
+                  </span>
+                  <h3
+                    class="list-item-title text-[1.25rem] font-medium leading-[1.5] md:text-[1.25rem] md:font-semibold md:leading-[1.4]"
+                  >
+                    Technical Data
+                  </h3>
+                </div>
+                <p>
+                  Contrary to popular belief,
+                  <strong>
+                     
+                    Lorem Ipsum
+                  </strong>
+                   is not simply 
+                  <a
+                    href="https://www.google.com/"
+                  >
+                    <strong>
+                      <em>
+                        <span
+                          style="text-decoration: underline;"
+                        >
+                          random text
+                        </span>
+                      </em>
+                    </strong>
+                  </a>
+                  . It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. 
+                </p>
+                <p>
+                  Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem 
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+`;
+
+exports[`List Content Section renders list content section with section theme blue 2`] = `
+<section
+  class="section-padding-primary list-content-section gSkyblueLight blue"
+  data-testid="list-content-section"
+>
+  <div
+    class="container"
+  >
+    <div
+      class="lg:flex lg:justify-between grid max-md:gap-[3.125rem]"
+    >
+      <div
+        class="lg:flex-[0_0_44%]"
+      >
+        <div
+          class="lg:sticky lg:top-[7.5rem]"
+        >
+          <div
+            class="content-head"
+          >
+            <div
+              class="section-heading white  mb-[1.875rem] md:mb-[3.25rem]"
+              data-testid="section-heading"
+            >
+              <h2
+                class="section-title text-[1.75rem] font-medium leading-[1.3] md:text-[3rem] md:font-bold md:leading-[1.1] capitalize"
+              >
+                Transportation is Near you 
+              </h2>
+            </div>
+            <p>
+              We know that the cost and logistics of organising childcare can prevent some people from taking part in personal development and networking opportunities like attending conferences.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="lg:flex-[0_0_48%]"
+      >
+        <div
+          class="grid gap-[2.5rem] lg:gap-[3.5rem]"
+        >
+          <div
+            class="hide-scrollbar list-wrapper max-md:overflow-x-auto"
+          >
+            <div
+              class="gap-[2rem] lg:grid lg:gap-[3rem] max-md:block max-md:whitespace-nowrap"
+            >
+              <div
+                class="list-item max-md:w-[75%] max-sm:w-[80%] max-md:inline-block max-md:align-top max-md:whitespace-normal"
+              >
+                <div
+                  class=" list-item-head  icon"
+                >
+                  <span
+                    class="list-item-icon text-[1.5rem] md:text-[1.75rem] inline-flex items-center relative top-[-2px]"
+                  >
+                    <svg
+                      fill="currentColor"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 24 24"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g>
+                        <path
+                          d="M0 0h24v24H0z"
+                          fill="none"
+                        />
+                        <path
+                          d="M17.2 20l1.8 1.5v.5H5v-.5L6.8 20H5a2 2 0 0 1-2-2V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4v11a2 2 0 0 1-2 2h-1.8zM5 7v4h14V7H5zm7 11a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"
+                        />
+                      </g>
+                    </svg>
+                  </span>
+                  <h3
+                    class="list-item-title text-[1.25rem] font-medium leading-[1.5] md:text-[1.25rem] md:font-semibold md:leading-[1.4]"
+                  >
+                    Communication Data
+                  </h3>
+                </div>
+                <p>
+                  That includes any communication that you send to us whether that be through the contact form on our website, through email, text, social media messaging, social media posting or any other communication.
+                </p>
+                <p>
+                  We process this data for the purposes of communicating with you, for record keeping and for the establishment, pursuance or defence of legal claims. Our lawful ground for this processing is our legitimate interests which in this case are to reply to communications sent to us, to keep records and to establish, pursue or defend legal claims.
+                </p>
+              </div>
+              <div
+                class="list-item max-md:w-[75%] max-sm:w-[80%] max-md:inline-block max-md:align-top max-md:whitespace-normal"
+              >
+                <div
+                  class=" list-item-head  icon"
+                >
+                  <span
+                    class="list-item-icon text-[1.5rem] md:text-[1.75rem] inline-flex items-center relative top-[-2px]"
+                  >
+                    <svg
+                      fill="currentColor"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 24 24"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g>
+                        <path
+                          d="M0 0h24v24H0z"
+                          fill="none"
+                        />
+                        <path
+                          d="M10.478 11.632L5.968 4.56l1.931-.518 6.951 6.42 5.262-1.41a1.5 1.5 0 0 1 .776 2.898L5.916 15.96l-.776-2.898.241-.065 2.467 2.445-2.626.704a1 1 0 0 1-1.133-.48L1.466 10.94l1.449-.388 2.466 2.445 5.097-1.366zM4 19h16v2H4v-2z"
+                        />
+                      </g>
+                    </svg>
+                  </span>
+                  <h3
+                    class="list-item-title text-[1.25rem] font-medium leading-[1.5] md:text-[1.25rem] md:font-semibold md:leading-[1.4]"
+                  >
+                    Customer Data
+                  </h3>
+                </div>
+                <p>
+                  Contrary to popular belief,
+                  <strong>
+                     
+                    Lorem Ipsum
+                  </strong>
+                   is not simply 
+                  <a
+                    href="https://www.google.com/"
+                  >
+                    <strong>
+                      <em>
+                        <span
+                          style="text-decoration: underline;"
+                        >
+                          random text
+                        </span>
+                      </em>
+                    </strong>
+                  </a>
+                  . It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. 
+                </p>
+                <p>
+                  Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem 
+                </p>
+              </div>
+              <div
+                class="list-item max-md:w-[75%] max-sm:w-[80%] max-md:inline-block max-md:align-top max-md:whitespace-normal"
+              >
+                <div
+                  class=" list-item-head  icon"
+                >
+                  <span
+                    class="list-item-icon text-[1.5rem] md:text-[1.75rem] inline-flex items-center relative top-[-2px]"
+                  >
+                    <svg
+                      fill="currentColor"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 24 24"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g>
+                        <path
+                          d="M0 0h24v24H0z"
+                          fill="none"
+                        />
+                        <path
+                          d="M17 20H7v1a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-1H3v-8H2V8h1V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v3h1v4h-1v8h-1v1a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1v-1zM5 5v9h14V5H5zm0 11v2h4v-2H5zm10 0v2h4v-2h-4z"
+                        />
+                      </g>
+                    </svg>
+                  </span>
+                  <h3
+                    class="list-item-title text-[1.25rem] font-medium leading-[1.5] md:text-[1.25rem] md:font-semibold md:leading-[1.4]"
+                  >
+                    User Data
+                  </h3>
+                </div>
+                <p>
+                  That includes any communication that you send to us whether that be through the contact form on our website, through email, text, social media messaging, social media posting or any other communication.
+                </p>
+                <p>
+                  We process this data for the purposes of communicating with you, for record keeping and for the establishment, pursuance or defence of legal claims. Our lawful ground for this processing is our legitimate interests which in this case are to reply to communications sent to us, to keep records and to establish, pursue or defend legal claims.
+                </p>
+              </div>
+              <div
+                class="list-item max-md:w-[75%] max-sm:w-[80%] max-md:inline-block max-md:align-top max-md:whitespace-normal"
+              >
+                <div
+                  class=" list-item-head  icon"
+                >
+                  <span
+                    class="list-item-icon text-[1.5rem] md:text-[1.75rem] inline-flex items-center relative top-[-2px]"
+                  >
+                    <svg
+                      fill="currentColor"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 24 24"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g>
+                        <path
+                          d="M0 0h24v24H0z"
+                          fill="none"
+                        />
+                        <path
+                          d="M4 13.256V12H2v-2h6.365L11.2 8h3.491L13.6 5H11V3h4l1.092 3H20v3h-2.816l1.456 4.002a4.5 4.5 0 1 1-1.985.392L15.419 10h-.947l-1.582 5.87-.002-.001.002.006-2.925 1.064A4.5 4.5 0 1 1 4 13.256zm2-.229a4.5 4.5 0 0 1 3.281 2.033l1.957-.713L12.403 10h-.547L9 12H6v1.027zM5.5 20a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5zm13 0a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"
+                        />
+                      </g>
+                    </svg>
+                  </span>
+                  <h3
+                    class="list-item-title text-[1.25rem] font-medium leading-[1.5] md:text-[1.25rem] md:font-semibold md:leading-[1.4]"
+                  >
+                    Technical Data
+                  </h3>
+                </div>
+                <p>
+                  Contrary to popular belief,
+                  <strong>
+                     
+                    Lorem Ipsum
+                  </strong>
+                   is not simply 
+                  <a
+                    href="https://www.google.com/"
+                  >
+                    <strong>
+                      <em>
+                        <span
+                          style="text-decoration: underline;"
+                        >
+                          random text
+                        </span>
+                      </em>
+                    </strong>
+                  </a>
+                  . It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. 
+                </p>
+                <p>
+                  Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem 
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+`;
+
+exports[`List Content Section renders list content section with section theme blue 3`] = `
+<section
+  class="section-padding-primary list-content-section body blue"
+  data-testid="list-content-section"
+>
+  <div
+    class="container"
+  >
+    <div
+      class="lg:flex lg:justify-between grid max-md:gap-[3.125rem]"
+    >
+      <div
+        class="lg:flex-[0_0_44%]"
+      >
+        <div
+          class="lg:sticky lg:top-[7.5rem]"
+        >
+          <div
+            class="content-head"
+          >
+            <div
+              class="section-heading blue  mb-[1.875rem] md:mb-[3.25rem]"
+              data-testid="section-heading"
+            >
+              <span
+                class="sub-title block text-[1.125rem] font-medium leading-[1.5] md:text-[1.5rem]  md:leading-[1.2] capitalize"
+              >
+                Write Text Here
+              </span>
+              <h2
+                class="section-title text-[1.75rem] font-medium leading-[1.3] md:text-[3rem] md:font-bold md:leading-[1.1] capitalize"
+              >
+                BrightonSEO Crehe
+              </h2>
+            </div>
+            <p>
+              We know that the cost and logistics of organising childcare can prevent some people from taking part in personal development and networking opportunities like attending conferences.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="lg:flex-[0_0_48%]"
+      >
+        <div
+          class="grid gap-[2.5rem] lg:gap-[3.5rem]"
+        >
+          <div
+            class="hide-scrollbar list-wrapper max-md:overflow-x-auto"
+          >
+            <div
+              class="gap-[2rem] lg:grid lg:gap-[3rem] max-md:block max-md:whitespace-nowrap"
+            >
+              <div
+                class="list-item max-md:w-[75%] max-sm:w-[80%] max-md:inline-block max-md:align-top max-md:whitespace-normal"
+              >
+                <div
+                  class=" list-item-head  "
+                >
+                  <h3
+                    class="list-item-title text-[1.25rem] font-medium leading-[1.5] md:text-[1.25rem] md:font-semibold md:leading-[1.4]"
+                  >
+                    Communication Data
+                  </h3>
+                </div>
+                <p>
+                  That includes any communication that you send to us whether that be through the contact form on our website, through email, text, social media messaging, social media posting or any other communication.
+                </p>
+                <p>
+                  We process this data for the purposes of communicating with you, for record keeping and for the establishment, pursuance or defence of legal claims. Our lawful ground for this processing is our legitimate interests which in this case are to reply to communications sent to us, to keep records and to establish, pursue or defend legal claims.
+                </p>
+              </div>
+              <div
+                class="list-item max-md:w-[75%] max-sm:w-[80%] max-md:inline-block max-md:align-top max-md:whitespace-normal"
+              >
+                <div
+                  class=" list-item-head  "
+                >
+                  <h3
+                    class="list-item-title text-[1.25rem] font-medium leading-[1.5] md:text-[1.25rem] md:font-semibold md:leading-[1.4]"
+                  >
+                    Customer Data
+                  </h3>
+                </div>
+                <p>
+                  Contrary to popular belief,
+                  <strong>
+                     
+                    Lorem Ipsum
+                  </strong>
+                   is not simply 
+                  <a
+                    href="https://www.google.com/"
+                  >
+                    <strong>
+                      <em>
+                        <span
+                          style="text-decoration: underline;"
+                        >
+                          random text
+                        </span>
+                      </em>
+                    </strong>
+                  </a>
+                  . It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. 
+                </p>
+                <p>
+                  Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem 
+                </p>
+              </div>
+              <div
+                class="list-item max-md:w-[75%] max-sm:w-[80%] max-md:inline-block max-md:align-top max-md:whitespace-normal"
+              >
+                <div
+                  class=" list-item-head  "
+                >
+                  <h3
+                    class="list-item-title text-[1.25rem] font-medium leading-[1.5] md:text-[1.25rem] md:font-semibold md:leading-[1.4]"
+                  >
+                    User Data
+                  </h3>
+                </div>
+                <p>
+                  That includes any communication that you send to us whether that be through the contact form on our website, through email, text, social media messaging, social media posting or any other communication.
+                </p>
+                <p>
+                  We process this data for the purposes of communicating with you, for record keeping and for the establishment, pursuance or defence of legal claims. Our lawful ground for this processing is our legitimate interests which in this case are to reply to communications sent to us, to keep records and to establish, pursue or defend legal claims.
+                </p>
+              </div>
+              <div
+                class="list-item max-md:w-[75%] max-sm:w-[80%] max-md:inline-block max-md:align-top max-md:whitespace-normal"
+              >
+                <div
+                  class=" list-item-head  "
+                >
+                  <h3
+                    class="list-item-title text-[1.25rem] font-medium leading-[1.5] md:text-[1.25rem] md:font-semibold md:leading-[1.4]"
+                  >
+                    Technical Data
+                  </h3>
+                </div>
+                <p>
+                  Contrary to popular belief,
+                  <strong>
+                     
+                    Lorem Ipsum
+                  </strong>
+                   is not simply 
+                  <a
+                    href="https://www.google.com/"
+                  >
+                    <strong>
+                      <em>
+                        <span
+                          style="text-decoration: underline;"
+                        >
+                          random text
+                        </span>
+                      </em>
+                    </strong>
+                  </a>
+                  . It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. 
+                </p>
+                <p>
+                  Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem 
+                </p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <a
+              class="inline-flex"
+              href="https://www.google.com"
+              target="_blank"
+            >
+              <span
+                class="bs-button BlueBgTextWhite hover-BlueVerticalGradientBgTextWhite btn-md   group relative cursor-pointer overflow-hidden inline-flex gap-[1rem] items-center justify-center capitalize"
+                data-testid="list-content-button"
+              >
+                <span>
+                  Booking Now
+                </span>
+                <span
+                  class="bs-btn-icon"
+                >
+                  <svg
+                    fill="currentColor"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 24 24"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g>
+                      <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                      />
+                      <path
+                        d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                      />
+                    </g>
+                  </svg>
+                </span>
+                <span
+                  class="absolute bs-button-bg inset-0"
+                />
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+`;

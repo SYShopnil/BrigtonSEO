@@ -1,0 +1,451 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders  contact section with address correctly 1`] = `
+<section
+  class="section-padding-primary"
+  data-testid="contact-section"
+>
+  <div
+    class="container"
+  >
+    <div
+      class="lg:flex lg:items-center lg:justify-between lg:gap-[3rem] grid gap-[2.5rem]"
+    >
+      <div
+        class="lg:flex-[0_0_40%]"
+      >
+        <div
+          class="mb-[1.375rem] lg:mb-[2rem]"
+        >
+          <div
+            class="section-heading blue  "
+            data-testid="section-heading"
+          >
+            <span
+              class="sub-title block text-[1.125rem] font-medium leading-[1.5] md:text-[1.5rem]  md:leading-[1.2] capitalize"
+            >
+              Contact Us
+            </span>
+            <h2
+              class="section-title text-[1.75rem] font-medium leading-[1.3] md:text-[3rem] md:font-bold md:leading-[1.1] capitalize"
+            >
+              We Here to help
+            </h2>
+          </div>
+        </div>
+        <div>
+          <div
+            class="mb-[1.125rem] md:mb-[1.75rem]"
+          >
+            <p
+              class="text-base md:text-[1.75rem] md:font-semibold"
+            >
+              Office
+            </p>
+            <div
+              class="text-[1.25rem] font-medium text-primary md:text-[1.5rem] md:font-semibold mt-[.75rem]"
+            >
+              Plus X Innovation Hub, c/o SiteVisibility Lewes Road, Brighton, BN2 4GL
+            </div>
+          </div>
+          <div>
+            <p
+              class="text-base md:text-[1.75rem] md:font-semibold"
+            >
+              Phone
+            </p>
+            <div
+              class="text-[2rem] leading-[1.2] font-medium text-primary md:font-bold md:text-[2.5rem] xl:text-[3.5rem] mt-[.75rem]"
+            >
+              +456 9876 5432
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div
+          class="flex items-center gap-6 lg:flex-col lg:min-h-[375px]"
+        >
+          <span
+            class="border border-solid border-[#D9D9D9] flex-grow"
+          />
+          <span
+            class="text-[1.75rem] leading-[1.2] font-medium text-primary md:font-bold md:text-[3rem] capitalize"
+          >
+            Or
+          </span>
+          <span
+            class="border border-solid border-[#D9D9D9] flex-grow"
+          />
+        </div>
+      </div>
+      <div
+        class="lg:flex-[0_0_45%]"
+      >
+        <form
+          class="form grid gap-4 lg:grid-cols-2"
+          data-testid="form"
+        >
+          <div
+            class="mb-[.5rem] md:mb-[.75rem] col-start-1 col-end-3"
+          >
+            <h3
+              class="text-[1.75rem] font-medium leading-[1.3] md:text-[3rem] md:font-bold md:leading-[1.1] capitalize text-secondary"
+            >
+              Send Us Message
+            </h3>
+          </div>
+          <div
+            class="max-sm:col-start-1 max-sm:col-end-3"
+          >
+            <div>
+              <input
+                autocomplete="Off"
+                class="border-[1px] border-solid block w-full focus:outline-0 focus:shadow-none focus-visible:outline-0  placeholder:capitalize placeholder:text-blackLight text-blackLight bg-gray text-base rounded-lg p-[1rem_1.5rem] border-transparent"
+                data-testid="firstName"
+                id="firstName"
+                name="firstName"
+                placeholder="First Name*"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+          <div
+            class="max-sm:col-start-1 max-sm:col-end-3"
+          >
+            <div>
+              <input
+                autocomplete="Off"
+                class="border-[1px] border-solid block w-full focus:outline-0 focus:shadow-none focus-visible:outline-0  placeholder:capitalize placeholder:text-blackLight text-blackLight bg-gray text-base rounded-lg p-[1rem_1.5rem] border-transparent"
+                data-testid="lastName"
+                id="lastName"
+                name="lastName"
+                placeholder="Last Name*"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+          <div
+            class="col-start-1 col-end-3"
+          >
+            <div>
+              <input
+                autocomplete="Off"
+                class="border-[1px] border-solid block w-full focus:outline-0 focus:shadow-none focus-visible:outline-0  placeholder:capitalize placeholder:text-blackLight text-blackLight bg-gray text-base rounded-lg p-[1rem_1.5rem] border-transparent"
+                data-testid="email"
+                id="email"
+                name="email"
+                placeholder="Enter Email Address*"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+          <div
+            class="col-start-1 col-end-3"
+          >
+            <div>
+              <input
+                autocomplete="Off"
+                class="border-[1px] border-solid block w-full focus:outline-0 focus:shadow-none focus-visible:outline-0  placeholder:capitalize placeholder:text-blackLight text-blackLight bg-gray text-base rounded-lg p-[1rem_1.5rem] border-transparent"
+                data-testid="phone"
+                id="phone"
+                name="phone"
+                placeholder="Phone number"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+          <div
+            class="col-start-1 col-end-3"
+          >
+            <div>
+              <textarea
+                autocomplete="Off"
+                class="border-[1px] border-solid block w-full focus:outline-0 focus:shadow-none focus-visible:outline-0  placeholder:capitalize placeholder:text-blackLight text-blackLight bg-gray text-base rounded-lg p-[1rem_1.5rem] border-transparent resize-none min-h-[130px]"
+                data-testid="message"
+                id="message"
+                name="message"
+                placeholder="Write Your Message Here*"
+              />
+            </div>
+          </div>
+          <div
+            class="col-start-1 col-end-3"
+          >
+            <div
+              class="inline-flex items-center flex-wrap gap-2"
+            >
+              <input
+                autocomplete="Off"
+                class="appearance-none hidden"
+                data-testid="terms"
+                id="terms"
+                name="terms"
+                placeholder="undefined*"
+                type="checkbox"
+                value=""
+              />
+              <label
+                class="text-base font-medium inline-flex items-center flex-wrap gap-[.625rem] cursor-pointer"
+                for="terms"
+              >
+                <span
+                  class="relative w-[18px] h-[18px] border border-solid  rounded-sm inline-flex items-center after:content-[''] after:absolute after:w-[12px] after:h-[12px] after:bg-secondary after:rounded-sm after:translate-x-[-50%] after:translate-y-[-50%] after:left-[50%] after:top-[50%] after:invisible border-[#cbcbcb]"
+                  data-testid="checkbox-box"
+                />
+                <span
+                  class="inline-block relative top-[2px]  text-blackLight"
+                  data-testid="checkbox-label"
+                >
+                  Terms & Condition
+                </span>
+              </label>
+            </div>
+          </div>
+          <div
+            class="col-start-1 col-end-3"
+          >
+            <span
+              class="inline-flex"
+            >
+              <span
+                class="bs-button SkyblueBgTextWhite hover-SkyblueVerticalGradientBgTextWhite btn-sm   group relative cursor-pointer overflow-hidden inline-flex gap-[1rem] items-center justify-center capitalize"
+                data-testid="submit-button"
+              >
+                <span>
+                  Send Now
+                </span>
+                <span
+                  class="absolute bs-button-bg inset-0"
+                />
+              </span>
+            </span>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+`;
+
+exports[`renders contact section without address correctly 1`] = `
+<section
+  class="section-padding-primary"
+  data-testid="contact-section"
+>
+  <div
+    class="container"
+  >
+    <div
+      class="lg:flex lg:items-center lg:justify-between lg:gap-[3rem] grid gap-[2.5rem]"
+    >
+      <div
+        class="lg:flex-[0_0_40%]"
+      >
+        <div
+          class="mb-[1.375rem] lg:mb-[2rem]"
+        >
+          <div
+            class="section-heading blue  "
+            data-testid="section-heading"
+          >
+            <h2
+              class="section-title text-[1.75rem] font-medium leading-[1.3] md:text-[3rem] md:font-bold md:leading-[1.1] capitalize"
+            >
+              Host For Fringe Events
+            </h2>
+            <p
+              class="description  text-[.875rem] leading-[1.3] md:text-base"
+            >
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+            </p>
+          </div>
+        </div>
+        <div>
+          <div>
+            <p
+              class="text-base md:text-[1.75rem] md:font-semibold"
+            >
+              Phone
+            </p>
+            <div
+              class="text-[2rem] leading-[1.2] font-medium text-primary md:font-bold md:text-[2.5rem] xl:text-[3.5rem] mt-[.75rem]"
+            >
+              +456 9876 5432
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div
+          class="flex items-center gap-6 lg:flex-col lg:min-h-[375px]"
+        >
+          <span
+            class="border border-solid border-[#D9D9D9] flex-grow"
+          />
+          <span
+            class="text-[1.75rem] leading-[1.2] font-medium text-primary md:font-bold md:text-[3rem] capitalize"
+          >
+            Or
+          </span>
+          <span
+            class="border border-solid border-[#D9D9D9] flex-grow"
+          />
+        </div>
+      </div>
+      <div
+        class="lg:flex-[0_0_45%]"
+      >
+        <form
+          class="form grid gap-4 lg:grid-cols-2"
+          data-testid="form"
+        >
+          <div
+            class="mb-[.5rem] md:mb-[.75rem] col-start-1 col-end-3"
+          >
+            <h3
+              class="text-[1.75rem] font-medium leading-[1.3] md:text-[3rem] md:font-bold md:leading-[1.1] capitalize text-secondary"
+            >
+              Send Us Message
+            </h3>
+          </div>
+          <div
+            class="max-sm:col-start-1 max-sm:col-end-3"
+          >
+            <div>
+              <input
+                autocomplete="Off"
+                class="border-[1px] border-solid block w-full focus:outline-0 focus:shadow-none focus-visible:outline-0  placeholder:capitalize placeholder:text-blackLight text-blackLight bg-gray text-base rounded-lg p-[1rem_1.5rem] border-transparent"
+                data-testid="firstName"
+                id="firstName"
+                name="firstName"
+                placeholder="First Name*"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+          <div
+            class="max-sm:col-start-1 max-sm:col-end-3"
+          >
+            <div>
+              <input
+                autocomplete="Off"
+                class="border-[1px] border-solid block w-full focus:outline-0 focus:shadow-none focus-visible:outline-0  placeholder:capitalize placeholder:text-blackLight text-blackLight bg-gray text-base rounded-lg p-[1rem_1.5rem] border-transparent"
+                data-testid="lastName"
+                id="lastName"
+                name="lastName"
+                placeholder="Last Name*"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+          <div
+            class="col-start-1 col-end-3"
+          >
+            <div>
+              <input
+                autocomplete="Off"
+                class="border-[1px] border-solid block w-full focus:outline-0 focus:shadow-none focus-visible:outline-0  placeholder:capitalize placeholder:text-blackLight text-blackLight bg-gray text-base rounded-lg p-[1rem_1.5rem] border-transparent"
+                data-testid="email"
+                id="email"
+                name="email"
+                placeholder="Enter Email Address*"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+          <div
+            class="col-start-1 col-end-3"
+          >
+            <div>
+              <input
+                autocomplete="Off"
+                class="border-[1px] border-solid block w-full focus:outline-0 focus:shadow-none focus-visible:outline-0  placeholder:capitalize placeholder:text-blackLight text-blackLight bg-gray text-base rounded-lg p-[1rem_1.5rem] border-transparent"
+                data-testid="phone"
+                id="phone"
+                name="phone"
+                placeholder="Phone number"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+          <div
+            class="col-start-1 col-end-3"
+          >
+            <div>
+              <textarea
+                autocomplete="Off"
+                class="border-[1px] border-solid block w-full focus:outline-0 focus:shadow-none focus-visible:outline-0  placeholder:capitalize placeholder:text-blackLight text-blackLight bg-gray text-base rounded-lg p-[1rem_1.5rem] border-transparent resize-none min-h-[130px]"
+                data-testid="message"
+                id="message"
+                name="message"
+                placeholder="Write Your Message Here*"
+              />
+            </div>
+          </div>
+          <div
+            class="col-start-1 col-end-3"
+          >
+            <div
+              class="inline-flex items-center flex-wrap gap-2"
+            >
+              <input
+                autocomplete="Off"
+                class="appearance-none hidden"
+                data-testid="terms"
+                id="terms"
+                name="terms"
+                placeholder="undefined*"
+                type="checkbox"
+                value=""
+              />
+              <label
+                class="text-base font-medium inline-flex items-center flex-wrap gap-[.625rem] cursor-pointer"
+                for="terms"
+              >
+                <span
+                  class="relative w-[18px] h-[18px] border border-solid  rounded-sm inline-flex items-center after:content-[''] after:absolute after:w-[12px] after:h-[12px] after:bg-secondary after:rounded-sm after:translate-x-[-50%] after:translate-y-[-50%] after:left-[50%] after:top-[50%] after:invisible border-[#cbcbcb]"
+                  data-testid="checkbox-box"
+                />
+                <span
+                  class="inline-block relative top-[2px]  text-blackLight"
+                  data-testid="checkbox-label"
+                >
+                  Terms & Condition
+                </span>
+              </label>
+            </div>
+          </div>
+          <div
+            class="col-start-1 col-end-3"
+          >
+            <span
+              class="inline-flex"
+            >
+              <span
+                class="bs-button SkyblueBgTextWhite hover-SkyblueVerticalGradientBgTextWhite btn-sm   group relative cursor-pointer overflow-hidden inline-flex gap-[1rem] items-center justify-center capitalize"
+                data-testid="submit-button"
+              >
+                <span>
+                  Send Now
+                </span>
+                <span
+                  class="absolute bs-button-bg inset-0"
+                />
+              </span>
+            </span>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+`;

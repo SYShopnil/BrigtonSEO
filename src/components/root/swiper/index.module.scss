@@ -1,0 +1,8 @@
+.swiper-main-wrapper {
+  &.cursor-drag {
+    cursor: url('../../../../public/assets/images/drag.svg') 64 64, pointer;
+  }
+  &.cursor-dragging {
+    cursor: url('../../../../public/assets/images/dragging.svg') 72 56, pointer;
+  }
+}

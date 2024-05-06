@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`When Event History Card element has called expect event history card element will render successfully 1`] = `
+<div
+  class="relative overflow-hidden bg-white card radius-xl shadow-One "
+  data-testid="IDEventHistoryCard"
+>
+  <div
+    class="h-auto w-[15rem] lg:w-[26.5rem]"
+  >
+    <div
+      class="mx-[1rem] my-[1.5rem] space-y-[1rem] lg:mx-[2.5rem] lg:my-[2.5rem]"
+    >
+      <div
+        class="pb-[0.3rem] lg:pb-[1.5rem] bottomBorder"
+      >
+        <p
+          class="text-primary font-medium lg:font-semibold text-lg lg:text-3xl"
+        >
+          BrightonSEO - 
+          26
+        </p>
+      </div>
+      <div
+        class="topicLineClamp overflow-hidden"
+      >
+        <p
+          class="text-black font-semibold text-sm lg:text-xl "
+        >
+          KEYNOTE (Thursday): Why SEOs should love (not fear) GA4
+        </p>
+      </div>
+      <div>
+        <p
+          class="text-secondaryLight font-normal lg:font-semibold text-base lg:text-xl"
+        >
+          05 
+          &
+           06 
+          October, 
+          2022
+        </p>
+      </div>
+      <div>
+        <p
+          class="text-blackLight text-sm lg:text-[1.4rem] font-normal lg:font-semibold"
+        >
+          Brighton Centre then Online
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,21 @@
+.tagColor {
+  &.primary{@apply bg-primary}
+  &.secondary{@apply bg-secondary}
+  &.success{@apply bg-success}
+  &.danger{@apply bg-danger}
+  &.warning{@apply bg-warning}
+}
+
+.course-card {
+  &:hover {
+    .card-title {
+      @apply text-primary;
+    }
+  }
+}
+
+.card-title {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}

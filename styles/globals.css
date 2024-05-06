@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Font - Axiforma */
+@layer base {
+  @font-face {
+    font-family: 'Axiforma';
+    font-weight: 400;
+    src: url('../public/assets/fonts/Axiforma-Regular.woff') format('woff'),
+      url('../public/assets/fonts/Axiforma-Regular.woff2') format('woff2');
+  }
+
+  @font-face {
+    font-family: 'Axiforma';
+    font-weight: 500;
+    src: url('../public/assets/fonts/Axiforma-Medium.woff') format('woff'),
+      url('../public/assets/fonts/Axiforma-Medium.woff2') format('woff2');
+  }
+
+  @font-face {
+    font-family: 'Axiforma';
+    font-weight: 600;
+    src: url('../public/assets/fonts/Axiforma-SemiBold.woff') format('woff'),
+      url('../public/assets/fonts/Axiforma-SemiBold.woff2') format('woff2');
+  }
+
+  @font-face {
+    font-family: 'Axiforma', sans-serif;
+    font-weight: 700;
+    src: url('../public/assets/fonts/Axiforma-Bold.woff') format('woff'),
+      url('../public/assets/fonts/Axiforma-Bold.woff2') format('woff2');
+  }
+
+  body,
+  p {
+    @apply font-primary text-sm md:text-base text-blackLight;
+  }
+
+  html,
+  body {
+    padding: 0;
+  }
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/**
+* Used in all section components
+*/
+.section-padding-primary {
+  @apply py-[3.75rem] md:py-[6.25rem] xl:py-[7.5rem];
+}
