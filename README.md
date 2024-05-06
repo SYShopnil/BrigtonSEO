@@ -48,29 +48,24 @@ We need to configure our implementation as needed.
   <img src = "./docs/doc/1.JPG" alt = "hero_sections" >
   [Show Live](https://brightonseo.com/)
 
-- **Card**
+- **Card** [Show Live](https://brightonseo.com/)
   <img src = "./docs/doc/2.JPG" alt = "cards" >
-  [Show Live](https://brightonseo.com/)
 
-- **Testimonial Cards**
+- **Testimonial Cards** [Show Live](https://brightonseo.com/)
   <img src = "./docs/doc/3.JPG" alt = "testimonialsCards" >
-  [Show Live](https://brightonseo.com/)
 
-- **Full Section**
+- **Full Section** [Show Live](https://brightonseo.com/courses)
   <img src = "./docs/doc/4.JPG" alt = "fullTrainSection" >
-  [Show Live](https://brightonseo.com/courses)
 
-- **About Us Section**
+- **About Us Section** [Show Live](https://brightonseo.com/about)
   <img src = "./docs/doc/5.JPG" alt = "about_us_section" >
-  [Show Live](https://brightonseo.com/about)
 
-- **Handle Rich text**
+- **Handle Rich text**  
   <img src = "./docs/doc/6.JPG" alt = "rich_text_handle" >
   [Show Live](https://brightonseo.com/ballot)
 
   <img src = "./docs/doc/8.JPG" alt = "rich_text_handle" >
   [Show Live](https://brightonseo.com/sponsor-brightonseo)
 
-- **FAQ Handler**
+- **FAQ Handler** [Show Live](https://brightonseo.com/faq)
   <img src = "./docs/doc/7.JPG" alt = "faq" >
-  [Show Live](https://brightonseo.com/faq)
